@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Money App</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Days+One&display=swap" rel="stylesheet">
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="top-bar">
+  
+    
+      <div class="menu-text float-center pagetop">THE MONEY APP</div>
+      
+    
+      
+</div>
+    <!--  CASH INPUTS  -->
+    <h1 class="float-center">
+      CASH
+    </h1>
+
+    <form>
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="medium-6 cell">
+            <label
+              >$1's
+              <input name="one" type="text" placeholder="" />
+            </label>
+          </div>
+          <div class="medium-6 cell">
+            <label
+              >$5's
+              <input name="fiv" type="text" placeholder="" />
+            </label>
+          </div>
+          <div class="medium-6 cell">
+            <label
+              >$10's
+              <input name="ten" type="text" placeholder="" />
+            </label>
+          </div>
+          <div class="medium-6 cell">
+            <label
+              >$20's
+              <input name="twe" type="text" placeholder="" />
+            </label>
+          </div>
+          <div class="medium-6 cell">
+            <label
+              >$50's
+              <input name="fif" type="text" placeholder="" />
+            </label>
+          </div>
+          <div class="medium-6 cell">
+            <label
+              >$100's
+              <input name="hun" type="text" placeholder="" />
+            </label>
+          </div>
+          <br />
+        </div>
+      </div>
+
+      <!-- COIN INPUTS -->
+      <h1 class="float-center">
+        COINS
+      </h1>
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+      <div class="medium-6 cell">
+        <label
+          >Pennies
+          <input name="pny" type="text" placeholder="" />
+        </label>
+      </div>
+      <div class="medium-6 cell">
+        <label
+          >Nickels
+          <input name="nck" type="text" placeholder="" />
+        </label>
+      </div>
+      <div class="medium-6  cell">
+        <label
+          >Dimes
+          <input name="dme" type="text" placeholder="" />
+        </label>
+      </div>
+      <div class="medium-6 cell">
+        <label
+          >Quarters
+          <input name="qtr" type="text" placeholder="" />
+        </label>
+      </div>
+      
+        </div><div class="medium-5 cell">
+        <label
+          >Half Dollars
+          <input name="hlf" type="text" class="float-center" placeholder="" />
+        </label>
+          </div>
+      </div>
+
+      <button
+        type="button"
+        name="calc"
+        onclick="javascript:money(form)"
+        value="Calculate"
+        class="success button float-center"
+      >
+        Count Cash
+      </button>
+
+      <div class="medium-6 cell">
+        <label>
+          <input type="text" name="total" placeholder="" />
+        </label>
+      </div>
+    </form>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
