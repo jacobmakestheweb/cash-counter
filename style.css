@@ -1,0 +1,32 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #160F19;
+  color: white;
+}
+
+h1 {
+  font-style: italic;
+  color: white;
+}
+label {
+  color: green;
+  font-weight: bolder;
+}
+
+.top-bar {
+  margin: 0;
+  background-color: #160F19;
+}
+.pagetop {
+  font-size: 4em;
+
+  font-family: "Days One", sans-serif;
+
+  background: url("https://cdn.glitch.com/2d637ce2-33dd-44d5-af40-34932e9ca80c%2Fcash.gif?v=1575636554644");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color: white;
+}
