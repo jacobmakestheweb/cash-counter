@@ -1,4 +1,8 @@
-The Money App
-=================
+# "Pomodoro" Productity Timer
 
-i have dyscalculia, and i work retail, so i made this app to reduce my suffering. plan to integrate a save system for drawers
+I made this simple app using p5 for timing productivity and
+breaks in 30 minute intervals making use of js setInterval.
+
+It looks awesome thanks to the nes.css project :
+
+[ https://nostalgic-css.github.io/NES.css/ ]
